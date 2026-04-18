@@ -26,7 +26,7 @@ The notebook [`HIV_project.ipynb`]()performs the following analyses:
 
 ##### Part 1: IMPORTING AND CLEANING THE DATASETS
 
-- Each annual HIV surveillance data from 2010 to 2024 was imported as csv files
+- Each annual HIV surveillance dataset from 2010 to 2024 was imported as a csv file.
 - Columns were standardized to upper case; string elements were removed from the datapoints to allow for quantitative analyses; datasets were evaluated for null values.
 
 
@@ -35,16 +35,16 @@ The notebook [`HIV_project.ipynb`]()performs the following analyses:
 - Each annual HIV surveillance dataset from 2010 to 2024 was merged into a single dataset called all_HIV
 
 ##### Part 3: SETTING UP, PERFORMING LINEAR REGRESSION ANALYSES AND CREATING SCATTER PLOTS
-- Linear regression analyses were performed for each annual HIV surveillance dataset from 2010 to 2024 to depict the relationship between HIV incidence and HIV death rate by UHF neighborhood. The main objective was to identify outlying UHF neighborhoods. These outliers may indicate disparities in HIV prevention, testing and treatment.
+- Linear regression analyses were performed for each annual HIV surveillance dataset from 2010 to 2024 to depict the relationship between the rate of new HIV diagnoses and HIV death rate by UHF neighborhood. The main objective was to identify outlying UHF neighborhoods. These outliers may indicate disparities in HIV prevention, testing and treatment.
 
 ##### Part 4: SETTING UP, PERFORMING GROUPED ANALYSES AND CREATING GRAPHS
-- The merged dataset, all_HIV, was analyzed to create a time trend of both HIV incidence by UHF neighborhood over time AND HIV death rate by UHF neighborhood over time. The 2024 HIV Surveillance Report from the NYC Health Department highlighted the increasing incidence of HIV citywide since 2020. This trend is in contrast to a steady decline in HIV incidence prior to 2020. This analysis identified the three UHF neighborhoods with the highest HIV incidence and highest HIV death rate during the latest year, 2024.
+- The merged dataset, all_HIV, was analyzed to depict the rate of new HIV diagnoses by UHF neighborhood over time AND HIV death rate by UHF neighborhood over time. The 2024 HIV Surveillance Report from the NYC Health Department highlighted the increasing number of new HIV diagnoses citywide since 2020. This trend is in contrast to a steady decline in new HIV diagnoses prior to 2020. This analysis identified the three UHF neighborhoods with the highest rate of new HIV diagnoses and the highest HIV death rate during the most recently reported year of 2024.
 
 ## Outputs
 
-The notebook outputs scatterplots that depict the relationship between HIV incidence and HIV death rate by neighborhood per year.
+The notebook outputs scatterplots that depict the relationship between the rate of new HIV diagnoses and HIV death rate by neighborhood per year.
 
-The notebook also outputs graphs that depict HIV incidence by neighborhood over time and HIV death rates by neighborhood over time.
+The notebook also outputs graphs that depict the rate of new HIV diagnoses by neighborhood over time and HIV death rates by neighborhood over time.
 
 ## Running the analysis yourself
 
